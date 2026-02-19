@@ -47,4 +47,4 @@ src/
 ```
 
 
-   The app should now be running on "http://localhost:3000".
+   The app should now be running on "https://famousshopin.vercel.app/".
