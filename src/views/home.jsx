@@ -228,9 +228,9 @@ const Home = () => {
       {/* --- Signup Modal (Outside the blur wrapper or handled via conditional rendering) --- */}
       {isSignUpOpen && !isLoggedIn && (
         <div 
-          className="fixed inset-0 bg-background bg-opacity-30 flex justify-center items-center z-[100] pointer-events-auto"
+          className="fixed inset-0 bg-background bg-opacity-30 flex sm:justify-center sm:items-center justify-start items-start z-[100] p-4"
         >
-          <div className="bg-white p-6 rounded shadow-lg w-80 relative">
+          <div className="bg-white p-6 rounded shadow-lg w-full max-w-sm relative mx-auto sm:mx-0 mt-60 ml-0 sm:mt-0">
             <button 
               onClick={() => setIsSignUpOpen(false)} 
               className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
