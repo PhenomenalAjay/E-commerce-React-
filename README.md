@@ -47,4 +47,4 @@ src/
 ```
 
 
-   The app should now be running on "https://famousshopin.vercel.app/".
+   The app should now be running on "https://famous-shopin.vercel.app/".
